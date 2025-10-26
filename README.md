@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+A simple web application to manage and track your personal internship journey — including company details, project progress, skills learned, and daily/weekly updates.
 
-## Project info
+📘 Overview
 
-**URL**: https://lovable.dev/projects/bc0a8564-8bd1-431a-b574-03ee72843e2d
+The Personal Internship Tracker helps you stay organized during your internship.
+It lets you record daily tasks, achievements, mentor feedback, and milestones — all in one place.
 
-## How can I edit this code?
+✨ Features
 
-There are several ways of editing your application.
+🗓️ Daily/Weekly Logs – Record your activities and progress
 
-**Use Lovable**
+🧩 Project Tracking – Keep track of assigned tasks and deadlines
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bc0a8564-8bd1-431a-b574-03ee72843e2d) and start prompting.
+🧠 Skills Gained – Document what you’ve learned
 
-Changes made via Lovable will be committed automatically to this repo.
+🏢 Company Info Section – Store details about your internship provider
 
-**Use your preferred IDE**
+📊 Progress Dashboard – Visualize your internship journey
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Frontend: HTML, CSS, JavaScript (or React, if used)
 
-Follow these steps:
+Backend: (Add your backend — e.g., Node.js, Flask, Django)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Database: (e.g., MySQL, SQLite, MongoDB)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Tools: Git, VS Code, etc.
 
-# Step 3: Install the necessary dependencies.
-npm i
+⚙️ Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Clone the repository
 
-**Edit a file directly in GitHub**
+git clone https://github.com/yourusername/personal-internship-tracker.git
+cd personal-internship-tracker
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+Install dependencies
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+npm install          # or pip install -r requirements.txt
 
-## What technologies are used for this project?
 
-This project is built with:
+Start the server
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+npm start            # or python manage.py runserver
 
-## How can I deploy this project?
+💡 Usage
 
-Simply open [Lovable](https://lovable.dev/projects/bc0a8564-8bd1-431a-b574-03ee72843e2d) and click on Share -> Publish.
+Add new internship details and update logs daily or weekly
 
-## Can I connect a custom domain to my Lovable project?
+Track goals and skills learned
 
-Yes, you can!
+Review your internship timeline anytime
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🚀 Future Enhancements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+File uploads (reports, certificates, etc.)
+
+Export data to PDF or Excel
+
+Authentication for multiple internships
+
+Dark mode
